@@ -12,9 +12,12 @@
 }
 
 #avatar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 
   img {
-    width: 100%;
+    width: 300px;
     clip-path: circle(50% at 50% 50%);
   }
 }

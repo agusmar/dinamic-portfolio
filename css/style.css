@@ -11,21 +11,6 @@
   align-items: center;
 }
 
-.header {
-  padding: 20px 0;
-  width: 100%;
-}
-.header #name {
-  font-size: 80px;
-}
-
-#bio {
-  width: 400px;
-}
-
-#avatar {
-  width: 300px;
-}
 #avatar img {
   width: 100%;
   clip-path: circle(50% at 50% 50%);
@@ -44,14 +29,6 @@ ul li {
   margin: 20px;
   cursor: pointer;
   text-decoration: none;
-}
-ul li a:visited {
-  color: black;
-}
-
-footer {
-  background-color: #bdbdbd;
-  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

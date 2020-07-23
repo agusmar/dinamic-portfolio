@@ -11,27 +11,14 @@
   align-items: center;
 }
 
-.header {
-  padding: 20px 0;
-  width: 100%;
-  #name {
-    font-size: 80px;
-  }
-}
-#bio {
-  width: 400px;
-
-}
 #avatar {
-  width: 300px;
+
   img {
     width: 100%;
     clip-path: circle(50% at 50% 50%);
   }
 }
-#jobstatus {
 
-}
 ul {
   display: flex;
   justify-content: center;
@@ -45,13 +32,5 @@ ul {
     margin: 20px;
     cursor: pointer;
     text-decoration: none;
-    a:visited {
-      color: black;
-    }
   }
-}
-
-footer {
-  background-color: rgb(189, 189, 189);
-  width: 100%;
 }
